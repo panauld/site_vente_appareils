@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../css/css_tp.css">
+</head>
+
+<body>
+    <div class="gallery">
+        <header>
+            <img src="../images/Logo.PNG" alt="Logo">
+            <div>
+                <label for="search">Quick Search</label>
+                <input type="text" id="search" placeholder="type here" />
+                <input type="submit" value="go!" />
+                <a href="page.html"><img src="../images/cart_icon.png" alt="Logo"></a>
+            </div>
+            <!-- <div>
+
+            </div> -->
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../catalogue/index.html">Catalogue</a></li>
+                <li><a href="index.html">Gallerie</a></li>
+                <li><a href="../details/index.html">Détail</a></li>
+                <li><a href="../tableau/index.html">Tableau</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+            <!-- Formulaire pour la selection du type de produit ex.(téléphone ou ordinateur) -->
+            <form id="type-produit">
+                <fieldset>
+                    <legend>Type de produit:</legend>
+                    <label>
+                        <input type="radio" name="type" value="type1">
+                        Téléphone
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="type2">
+                        Ordinateur
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="type3">
+                        Télé
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="type4">
+                        Montre
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="type5">
+                        Tablette
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="type6">
+                        Accessoires
+                    </label>
+                </fieldset>
+            </form>
+
+        </aside>
+
+        <main>
+            <!-- Gallerie ou tout les produit sont affichés -->
+            <div class="box-produit">
+                <div id="product">
+                    <img src="../images/gallery/phone1.jpg" alt="Produit 1">
+                    <h3>Samsung S23</h3>
+                    <h4>900$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone2.jpg" alt="Produit 2">
+                    <h3>Iphone 9</h3>
+                    <h4>600$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone3.jpg" alt="Produit 3">
+                    <h3>Pixel 2</h3>
+                    <h4>500$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone1.jpg" alt="Produit 4">
+                    <h3>Iphone 14</h3>
+                    <h4>1000$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone2.jpg" alt="Produit 5">
+                    <h3>Huawei</h3>
+                    <h4>650$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone3.jpg" alt="Produit 6">
+                    <h3>Iphone 14 pro</h3>
+                    <h4>1200$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone1.jpg" alt="Produit 7">
+                    <h3>Huawei</h3>
+                    <h4>800$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone3.jpg" alt="Produit 8">
+                    <h3>Motorola</h3>
+                    <h4>500$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone2.jpg" alt="Produit 9">
+                    <h3>Huawei</h3>
+                    <h4>400$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone1.jpg" alt="Produit 10">
+                    <h3>Motorola</h3>
+                    <h4>630$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone3.jpg" alt="Produit 11">
+                    <h3>Motorola</h3>
+                    <h4>720$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+                <div id="product">
+                    <img src="../images/gallery/phone2.jpg" alt="Produit 12">
+                    <h3>Huawei</h3>
+                    <h4>540$</h4>
+                    <a href="../details/index.html"><button>Ajouter au panier</button></a>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-detail">
+                <h3>NOUS JOINDRE</h3>
+                <dl>
+                    <dt></dt>
+                    <dd><i class="adresse"></i> 205 avenue Viger ouest,
+                        Montréal, Québec Canada, H2Z 1G2</dd>
+                    <dd><i class="phone"></i>(514) 316-0220</dd>
+                    <dd><i class="email"></i>infomtl@cuniversel.ca</dd>
+                </dl>
+            </div>
+            <div class="footer-section-social">
+                <h3>SUIVEZ-NOUS</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="Logo"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Logo"></a></li>
+                    <li><a href="https://ca.linkedin.com/"><img src="../images/linkedin.png" alt="Logo"></a></li>
+                    <li><a href="https://twitter.com/?lang=en-ca"><img src="../images/twitter.png" alt="Logo"></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 site web par Sarvenaz, Carlson et Panauld. Tous droits réservés.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

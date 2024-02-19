@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau</title>
+    <link rel="stylesheet" href="../css/css_tp.css">
+</head>
+
+<body>
+    <div class="tableau">
+        <header>
+            <img src="../images/Logo.PNG" alt="Logo">
+            <div>
+                <label for="search">Quick Search</label>
+                <input type="text" id="search" placeholder="type here" />
+                <input type="submit" value="go!" />
+                <a href="page.html"><img src="../images/cart_icon.png" alt="Logo"></a>
+            </div>
+            <!-- <div>
+
+            </div> -->
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../catalogue/index.html">Catalogue</a></li>
+                <li><a href="../gallery/index.html">Gallerie</a></li>
+                <li><a href="../details/index.html">Détail</a></li>
+                <li><a href="index.html">Tableau</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <aside>
+            <!-- Formulaire pour la selection du type de produit ex.(téléphone ou ordinateur) -->
+            <form id="type-produit">
+                <fieldset>
+                    <legend>
+                        <h4>Type de produit:</h4>
+                    </legend>
+                    <label>
+                        <input type="radio" name="type" value="type1">
+                        Option 1
+                    </label>
+
+                    <label>
+                        <input type="radio" name="type" value="type2">
+                        Option 2
+                    </label>
+
+                    <label>
+                        <input type="radio" name="type" value="type3">
+                        Option 3
+                    </label>
+
+                    <label>
+                        <input type="radio" name="type" value="type4">
+                        Option 4
+                    </label>
+
+                    <label>
+                        <input type="radio" name="type" value="type5">
+                        Option 5
+                    </label>
+
+                    <label>
+                        <input type="radio" name="type" value="type6">
+                        Option 6
+                    </label>
+                </fieldset>
+            </form>
+            <!-- formulaire pour le choix du premier model à comparer ex(Iphone x ou Samsumg S5)  -->
+            <form id="produit1">
+                <label for="options">Model 1:</label>
+                <select id="options" name="options">
+                    <option value="option0">choisissez un model</option>
+                    <option value="option1">Iphone 14</option>
+                    <option value="option2">Iphone 13</option>
+                    <option value="option3">Iphone 12</option>
+                    <option value="option4">Iphone X</option>
+                    <option value="option5">Samsung S21</option>
+                    <option value="option6">Samsung S20</option>
+                    <option value="option7">Pixel 7 pro</option>
+                    <option value="option8">Pixel 7</option>
+                    <option value="option9">Pixel 6a</option>
+                    <option value="option10">Samsung S23</option>
+                </select>
+            </form>
+            <!-- formulaire pour le choix du second model à comparer ex(Iphone x ou Samsumg S5)  -->
+            <form id="produit2">
+                <label for="options">Model 2:</label>
+                <select id="options" name="options">
+                    <option value="option0">choisissez un model</option>
+                    <option value="option1">Iphone 14</option>
+                    <option value="option2">Iphone 13</option>
+                    <option value="option3">Iphone 12</option>
+                    <option value="option4">Iphone X</option>
+                    <option value="option5">Samsung S21</option>
+                    <option value="option6">Samsung S20</option>
+                    <option value="option7">Pixel 7 pro</option>
+                    <option value="option8">Pixel 7</option>
+                    <option value="option9">Pixel 6a</option>
+                    <option value="option10">Samsung S23</option>
+                </select>
+            </form>
+
+        </aside>
+
+
+        <main>
+            <!-- tableau de deux produits afficher côte à côte -->
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <h3>Iphone 14</h3>
+                                <img src="https://imgs.casasbahia.com.br/55058313/1g.jpg?imwidth=500" alt="Produit 1">
+                            </th>
+                            <th>
+                                <h3>Samsung S21</h3>
+                                <img src="https://cdn.shopify.com/s/files/1/2335/9579/products/A6_1_DG_Forest_Green_Samsung_S21_500x500_web_v01_2342660e-600e-4af8-a025-642747b780b9_1600x.jpg?v=1669813311"
+                                    alt="Produit 2">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>6.1 inches</td>
+                            <td>6.2 inches</td>
+                        </tr>
+                        <tr>
+                            <td>2532 x 1170 pixels, 19.5:9 ratio, 457 PPI</td>
+                            <td>2400 x 1080 pixels, 20:9 ratio, 424 PPI</td>
+                        </tr>
+                        <tr>
+                            <td>60Hz</td>
+                            <td>120Hz (adaptive)</td>
+                        </tr>
+                        <tr>
+                            <td>1200 cd/m2 (nit)</td>
+                            <td>1300 cd/m2 (nit)</td>
+                        </tr>
+                        <tr>
+                            <td>Super Retina XDR, HDR support, Oleophobic coating, Scratch-resistant glass (Ceramic
+                                Shield), Ambient light sensor, Proximity sensor</td>
+                            <td>HDR support, Scratch-resistant glass (Corning Gorilla Glass Victus), Ambient light
+                                sensor, Proximity sensor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </main>
+
+
+        <footer>
+            <div class="footer-detail">
+                <h3>NOUS JOINDRE</h3>
+                <dl>
+                    <dt></dt>
+                    <dd><i class="adresse"></i> 205 avenue Viger ouest,
+                        Montréal, Québec Canada, H2Z 1G2</dd>
+                    <dd><i class="phone"></i>(514) 316-0220</dd>
+                    <dd><i class="email"></i>infomtl@cuniversel.ca</dd>
+                </dl>
+            </div>
+            <div class="footer-section-social">
+                <h3>SUIVEZ-NOUS</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="Logo"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Logo"></a></li>
+                    <li><a href="https://ca.linkedin.com/"><img src="../images/linkedin.png" alt="Logo"></a></li>
+                    <li><a href="https://twitter.com/?lang=en-ca"><img src="../images/twitter.png" alt="Logo"></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 site web par Sarvenaz, Carlson et Panauld. Tous droits réservés.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

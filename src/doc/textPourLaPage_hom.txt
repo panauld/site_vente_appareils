@@ -1,0 +1,27 @@
+text_pourHomePage
+
+Innovez avec nous // titre
+
+Rejoignez la tendance // sous-titre
+
+texte: 
+
+Bienvenue sur notre boutique en ligne spécialisée dans la vente de produits électroniques de marque. 
+Nous sommes passionnés par les dernières tendances en matière de technologies et nous sommes fiers de 
+vous offrir une sélection soigneusement choisie des meilleurs produits disponibles sur le marché.
+
+Nous proposons une large gamme de produits électroniques de marque, tels que des téléphones, des ordinateurs, 
+des tablettes, des télévisions, des appareils photo, et bien plus encore. Notre objectif est de vous offrir des 
+produits de haute qualité qui répondent à vos besoins technologiques tout en restant accessibles à tous.
+
+Notre boutique en ligne vous offre une expérience d'achat facile, pratique et sécurisée. Nous travaillons avec 
+les marques les plus fiables pour vous offrir les meilleurs produits et nous sommes constamment à l'affût des dernières 
+tendances technologiques pour vous offrir les produits les plus innovants.
+
+Nous sommes également fiers de vous offrir un service clientèle exceptionnel. Nous sommes là pour répondre à 
+toutes vos questions et pour vous aider à trouver les produits qui conviennent le mieux à vos besoins. Nous sommes 
+également disponibles pour vous aider après l'achat en cas de besoin.
+
+Nous sommes impatients de vous aider à trouver les produits électroniques de marque qui répondent à vos besoins. 
+Merci de votre visite sur notre boutique en ligne et n'hésitez pas à nous contacter si vous avez des questions 
+ou des commentaires.

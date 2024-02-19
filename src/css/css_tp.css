@@ -1,0 +1,448 @@
+/**
+    Déclaration global a toute l'application
+    Cette partie est modifié SEULEMENT APRES avoir communiquer avec les autre membre de l'équipe.
+    --------------------------------------------------------------------------------------------
+**/
+
+/** Chargement des polices **/
+@font-face {
+    font-family: garet-book;
+    src: url(../font/Garet-Book.otf);
+}
+
+@font-face {
+    font-family: neue_machina-ultra_bold;
+    src: url(../font/NeueMachina-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+}
+
+/** Déclaration du box-sizing **/
+
+/** Sémantique permettant un aspect constant sur toute l'application **/
+
+/*section header*/
+header {
+    background-color: #8a8987;
+    height: 100px;
+    background-color: #333;
+    color: white;
+}
+
+header>img {
+    position: absolute;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+header div {
+    display: inline-block;
+}
+
+header>img+div {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+header>div>a>img {
+    width: 20px;
+    height: 20px;
+
+}
+
+
+/*section nav*/
+nav {
+    text-align: center;
+}
+
+nav>ul>a, li:hover {
+    background-color: #333;
+}
+
+nav>ul>li>a:hover {
+    color: white;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 10px;
+}
+
+/*section body*/
+body h1 {
+    font-family: neue_machina-ultra_bold;
+
+}
+
+body h2, h3, h4, a, button {
+    font-family: garet-book;
+
+}
+
+body p, td {
+    font-family: poppins;
+
+}
+
+/*section footer*/
+footer {
+    /*section footer*/
+
+    margin-top: 900px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #333;
+    text-align: center;
+    color: #797575;
+}
+
+footer>div.footer-section-social>ul>li {
+    list-style: none;
+}
+
+footer>div.footer-section-social>ul>li img {
+    width: 30px;
+    height: auto;
+}
+
+
+/**
+    Déclaration spécifique a chaque page au besoin.
+    Chaque personne travaille sur une page à la fois donc il ne devrait jamais y avoir de conflit.
+
+**/
+
+/**----------------------------------------------------------------------------------------------**/
+/** page home **/
+.home {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-color: #ccc;
+}
+
+.home>main {
+    text-align: justify;
+}
+
+.imag1 {
+    overflow: hidden;
+    height: 700px;
+}
+
+.imag1>img {
+    height: auto;
+    width: 100%;
+}
+
+
+/* Sélectionne tous les paragraphes de la page */
+#txtandpic {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+}
+
+.deuxtitres {
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home h1, h2 {
+    color: white;
+    padding-left: 10px;
+}
+
+div#description {
+    width: 40%;
+    margin: 10px;
+    float: left;
+    padding-right: 100px;
+}
+
+.image2 {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.imag2>img {
+    height: 100%;
+}
+
+.imag3 {
+    overflow: hidden;
+    width: 100%;
+    height: 650px;
+}
+
+.imag3>img {
+    width: 100%;
+}
+
+
+
+/**----------------------------------------------------------------------------------------------**/
+/** page catalogue **/
+
+
+
+/*section aside*/
+.catalogue>aside {
+    position: absolute;
+    width: 20%;
+    border: #333 solid 2px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.catalogue>aside img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.catalogue>aside img:hover {
+    border: #333 solid 2px;
+}
+
+.catalogue>aside>div {
+    display: inline-block;
+    position: relative;
+}
+
+.catalogue>aside>div h2 {
+    text-align: center;
+}
+
+/*section main*/
+.catalogue>main>div {
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.catalogue>main {
+    width: 80%;
+    top: 150px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+
+.catalogue>main>h1 {
+    padding-left: 50px;
+}
+
+.catalogue>main>div img {
+    width: 60%;
+    border: #333 solid 2px;
+    padding: 20px;
+}
+
+.catalogue>main>div img:hover {
+    background-color: #333;
+}
+
+.catalogue h3 {
+    color: #333;
+}
+
+
+
+
+
+/**----------------------------------------------------------------------------------------------**/
+/** page tableau **/
+
+.tableau>aside {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.tableau>main {
+    float: left;
+    width: 70%;
+
+}
+
+
+#type-produit label {
+    display: block;
+}
+
+#type-produit {
+    color: #333;
+}
+
+#type-produit label {
+    display: block;
+    color: #333;
+}
+
+#produit1, #produit2 {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#produit1 #options, #produit2 #options {
+    background-color: #333;
+    color: white;
+}
+
+.comparison-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comparison-table th {
+    text-align: center;
+}
+
+.comparison-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+
+/**----------------------------------------------------------------------------------------------**/
+/** page contact **/
+/* Styles for the body element */
+.contact {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.contact fieldset {
+    width: 500px;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.contact legend {
+    color: white;
+    background-color: gray;
+    padding: 5px;
+}
+
+.contact fieldset>div {
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+.contact fieldset>div>label {
+    display: inline-block;
+    width: 125px;
+    text-align: end;
+    margin-right: 5px;
+}
+
+.contact fieldset+div {
+    text-align: center;
+}
+
+.contact fieldset+div>input {
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+/**----------------------------------------------------------------------------------------------**/
+/** page gallery **/
+
+
+/*--section aside*/
+.gallery>aside {
+    width: 30%;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: left;
+}
+
+
+
+/*--section main*/
+.box-produit {
+    display: inline-block;
+    width: 65%;
+    padding: 10px;
+}
+
+.box-produit button {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box-produit button:hover {
+    background-color: #333;
+    color: white;
+}
+
+#product {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+#product img {
+    width: 250px;
+    height: auto;
+}
+
+
+
+
+
+/**----------------------------------------------------------------------------------------------**/
+/** page detail **/
+
+/*section aside*/
+.details>main>aside {
+    width: 25%;
+    float: left;
+    margin-left: 20px;
+}
+
+.details>main>aside>div {
+    display: inline-block;
+}
+
+/*section section*/
+.details>main>section>h1 {
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+.details>main>section {
+    width: 40%;
+    float: right;
+    margin-right: 200px;
+}
+
+.details>main>section>article.buttons {
+    text-align: right;
+}
+
+.details>main>section>article.buttons>input {
+    background-color: white;
+    margin: auto 20px;
+}
